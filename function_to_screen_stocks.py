@@ -9,7 +9,7 @@ def market_screener(list_of_tickers):
     start_date = (year, month, day)
     list_of_tickers = dataframe of the stock tickers with a column name ['Symbol']
 
-    function scrapes historical information from Yagoo Finanse by a given ticker,
+    function scrapes historical information from Yahoo Finanse by a given ticker,
     analyzes by 50, 100, 150 and 200 days moving averages and returns only those tickers
     which meets specified conditions
     """
@@ -18,7 +18,7 @@ def market_screener(list_of_tickers):
     start = dt.datetime(2020, 1, 1)
     now = dt.datetime.now()
 
-    # Structure pf required table
+    # Structure df required table
     exportList = pd.DataFrame(columns=[
         'Stock'
         , "50 Day MA"
