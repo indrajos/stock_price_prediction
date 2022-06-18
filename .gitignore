@@ -3,3 +3,4 @@ stock_price_II.ipynb
 test.py
 stock_price_adj_close.ipynb
 LSTM_multivariate.h5
+plotting_function.py
